@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How the personal Home Assistant Nest integration accesses, uses and stores Google Nest data.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Privacy policy · Home Assistant Nest</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Home Assistant Nest</a><nav aria-label="Main"><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav></header>
+  <main>
+    <p class="eyebrow">Last updated 19 October 2026</p>
+    <h1>Privacy policy</h1>
+    <p class="intro">This policy covers the owner’s personal Home Assistant Nest integration and this informational website.</p>
+    <section><h2>Data accessed</h2><p>With the owner’s permission, the integration accesses selected Nest devices’ identifiers, names, settings, temperature setpoints, temperature, humidity and heating activity. Google may also provide home names, room names and postal code metadata when home information access is authorised.</p><p>OAuth credentials and Google Cloud project, topic and subscription identifiers support authentication and device-event delivery.</p></section>
+    <section><h2>How data is used</h2><p>Data is used to display and control the selected devices in the owner’s private Home Assistant installation, record configured device history and run household automations. Pub/Sub access is used to receive Nest device updates through the configured event topic and subscription.</p><p>The integration does not sell Google user data, use it for advertising or use it to train artificial intelligence models. Its use of Google data follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p></section>
+    <section><h2>Storage and access</h2><p>Credentials and connected-device data are stored in the owner’s Home Assistant installation and its configured history and backups. Any local credential backup is kept in an untracked, access-restricted environment file. Access is limited by the owner’s Home Assistant, host and backup access controls. Retention follows the owner’s configured history and backup policies.</p></section>
+    <section><h2>Services involved</h2><p>Google processes Nest API requests, authorisation and Pub/Sub device events. Home Assistant receives and uses that data for the purposes described above. The public GitHub Pages website does not receive the integration’s credentials or device data.</p><p>The website uses no analytics scripts, advertising or application cookies. Its hosting provider may process ordinary request information, such as IP addresses, under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>.</p></section>
+    <section><h2>Revocation and deletion</h2><p>The owner can revoke the integration’s Google account permissions at <a href="https://myaccount.google.com/connections">Google Account connections</a>, and remove the Nest integration and application credentials from Home Assistant. Revocation stops future access. Existing recorded history, local credential backups and Home Assistant backups can be deleted separately through the owner’s local administration tools.</p></section>
+    <section><h2>Contact and changes</h2><p>Questions can be directed to the owner using the support contact shown on Google’s consent screen or the maintainer’s <a href="https://github.com/bradwright">public GitHub profile</a>. Changes to data practices will be reflected in this policy and its update date.</p></section>
+  </main>
+  <footer><a href="./">Home Assistant Nest</a><span><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a></span></footer>
+</body>
+</html>
